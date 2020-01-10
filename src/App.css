@@ -1,0 +1,35 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.text {
+    font-weight: bold;
+    color: rgba(0 0 0 0.4);
+}
+
+.toDoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.toDoList {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+}
+
+.todo-form {
+    width: 40%;
+    padding: 10px;
+}
+
+.todo-input {
+    width: 100%;
+}
